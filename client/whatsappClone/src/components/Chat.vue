@@ -98,7 +98,7 @@ export default {
     },
   },
   mounted() {
-    this.socket = io("http://localhost:3000");
+    this.socket = io("https://whatsapp-mmgt.onrender.com");
 
     const storedName = localStorage.getItem("username");
     if (storedName) {
