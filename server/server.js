@@ -11,7 +11,7 @@ app.use(cors());
 
 const io = new Server(server, {
   cors: {
-    origin: "https://whatsapp-front-end-two.vercel.app/",
+    origin: "https://whatsapp-front-end-two.vercel.app",
     methods: ["GET", "POST"],
   },
 });
